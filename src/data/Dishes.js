@@ -28,21 +28,21 @@ export default dishes;
 
 export const clients = [
     {
-        index: 1,
+        id: 1,
         name: 'John Doe',
-        image: {client1},
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quisquam.'
+        image: client1,
+        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac urna rutrum, dapibus massa eu, pharetra erat. Vestibulum aliquet ex velit, eget ultricies elit varius nec. Mauris eu fringilla eros. Fusce eu odio dui. Phasellus sodales aliquet orci sit amet pellentesque. Curabitur lacinia, nunc at posuere ultricies."'
     },
     {
-        index: 2,
+        id: 2,
         name: 'Jennie Nichols',
-        image: {client2},
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quisquam.'
+        image: client2,
+        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac urna rutrum, dapibus massa eu, pharetra erat. Vestibulum aliquet ex velit, eget ultricies elit varius nec. Mauris eu fringilla eros. Fusce eu odio dui. Phasellus sodales aliquet orci sit amet pellentesque. Curabitur lacinia, nunc at posuere ultricies."'
     },
     {
-        index: 3,
+        id: 3,
         name: 'Eric Dagsland',
-        image: {client3},
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quisquam.'
+        image: client3,
+        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac urna rutrum, dapibus massa eu, pharetra erat. Vestibulum aliquet ex velit, eget ultricies elit varius nec. Mauris eu fringilla eros. Fusce eu odio dui. Phasellus sodales aliquet orci sit amet pellentesque. Curabitur lacinia, nunc at posuere ultricies."'
     }
 ]

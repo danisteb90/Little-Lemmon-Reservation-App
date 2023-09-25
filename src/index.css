@@ -4,3 +4,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .prevCard {
+        @apply left-[calc(-5%)] opacity-0;
+    }
+
+    .activeCard {
+        @apply left-[50%] translate-x-[-50%];
+    }
+
+    .nextCard {
+        @apply left-[100%] translate-x-[calc(-100%_-_2rem)] opacity-0;
+    }
+}
