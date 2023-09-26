@@ -1,7 +1,6 @@
 import TextimonialsCard from "./TextimonialsCard";
 import {clients} from '../data/Dishes.js';
-import {motion} from 'framer-motion';
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 const Testimonials = () => {
 

@@ -6,6 +6,12 @@
 @tailwind utilities;
 
 @layer components {
+    .reservation-bg {
+        background-image: url('https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+}
+
+@layer components {
 
     .prevCard {
         @apply left-[calc(-5%)] opacity-0;
@@ -16,6 +22,6 @@
     }
 
     .nextCard {
-        @apply left-[100%] translate-x-[calc(-100%_-_2rem)] opacity-0;
+        @apply left-[100%] translate-x-[calc(-100%)] opacity-0;
     }
 }
