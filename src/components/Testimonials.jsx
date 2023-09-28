@@ -19,7 +19,7 @@ const Testimonials = () => {
     }
 
     return (
-        <section className="relative w-screen h-fit md:mt-[40px] py-[30px]">
+        <section id="testimonials" className="relative w-screen h-fit md:mt-[40px] py-[30px]">
             <h1 className="font-Marzaki text-4xl text-center w-full mt-3 text-color-1">Our Happy Customers</h1>
             <div onClick={slideRight} className="absolute top-[50%] right-[5%] z-10 text-4xl cursor-pointer">
                 <ion-icon name="chevron-forward-sharp"></ion-icon>

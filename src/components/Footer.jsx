@@ -1,8 +1,9 @@
 import logo from '../assets/img/Logo.svg';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
-        <footer className='flex flex-col items-center md:flex-row justify-between px-8 py-5 bg-card-color border-t-4 border-color-1 rounded-md'>
+        <footer id='footer' className='flex flex-col items-center md:flex-row justify-between px-8 py-5 bg-card-color border-t-4 border-color-1 rounded-md'>
             <img src={logo} alt="logo" className='w-[200px]' />
             <ul className='text-sm md:ml-[-110px] hidden md:block'>
                 <li>
@@ -10,19 +11,16 @@ const Footer = () => {
                     <a className='hover:text-color-2' href="#">Home</a>
                 </li>
                 <li>
-                    <a className='hover:text-color-2' href="#">Menu</a>
+                    <Link to='header' smooth={true} duration={1000} offset={50} className='hover:text-color-2 cursor-pointer'>Menu</Link>
                 </li>
                 <li>
-                    <a className='hover:text-color-2' href="#">Events</a>
+                    <Link to='dishes' smooth={true} duration={1000} offset={50} className='hover:text-color-2 cursor-pointer'>Order Online</Link>
                 </li>
                 <li>
-                    <a className='hover:text-color-2' href="#">Order Online</a>
+                    <Link to='footer' smooth={true} duration={1000} offset={50} className='hover:text-color-2 cursor-pointer'>Contact</Link>
                 </li>
                 <li>
-                    <a className='hover:text-color-2' href="#">Contact</a>
-                </li>
-                <li>
-                    <a className='hover:text-color-2' href="#">Login</a>
+                    <Link to='header' smooth={true} duration={1000} offset={50} className='hover:text-color-2 cursor-pointer'>Login</Link>
                 </li>
             </ul>
             <article className='flex justify-center items-center gap-5 mb-5 md:mb-0'>

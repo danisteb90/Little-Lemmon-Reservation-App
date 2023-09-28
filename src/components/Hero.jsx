@@ -5,7 +5,7 @@ import MainButton from './MainButton';
 
 const Hero = () => {
     return (
-        <section className="relative md:mt-[60px] w-screen h-screen">
+        <section id='hero' className="relative md:mt-[60px] w-screen h-screen">
             <img src={bg_hero} className='absolute md:top-[-220px] top-[-100px] left-0 w-full h-auto opacity-80 z-[-1]'/>
             <section className='flex flex-col md:flex-row gap-2'>
                 <div className='flex flex-col md:text-6xl text-4xl font-bold font-Marzaki text-color-1 md:basis-6/12'>

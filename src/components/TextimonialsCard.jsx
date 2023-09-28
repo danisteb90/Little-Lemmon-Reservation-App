@@ -1,6 +1,5 @@
-import dishes from "../data/Dishes";
-
 const TextimonialsCard = ({name, image, content, cardStyle }) => {
+
     return (
         <section className="w-full h-[550px]">
             <div className={`${cardStyle} absolute bg-color-1 min-w-[350px] md:w-[700px] h-[450px] rounded-tl-[20px] rounded-tr-[60px] rounded-bl-[60px] rounded-br-[20px] flex flex-col items-center mt-[60px] p-5 transition-all duration-500 ease-in-out`}>
