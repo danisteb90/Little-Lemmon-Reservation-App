@@ -2,6 +2,7 @@ import bg_hero from '../assets/img/Background.png';
 import hero1 from '../assets/img/hero1.png';
 import hero2 from '../assets/img/bruchetta.svg';
 import MainButton from './MainButton';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
@@ -16,9 +17,9 @@ const Hero = () => {
                         <MainButton
                         bgcolor = "bg-color-2 hover:text-white hover:bg-color-1"
                         >Menu</MainButton>
-                        <MainButton
+                        <Link to='reservations' smooth={true} duration={1000} offset={50}><MainButton
                         bgcolor = "bg-color-3 hover:text-white hover:bg-color-1 hidden md:block"
-                        >Reserve a Table</MainButton>
+                        >Reserve a Table</MainButton></Link>
                     </div>
                 </div>
                 <div className='flex flex-col items-center justify-center md:basis-6/12'>

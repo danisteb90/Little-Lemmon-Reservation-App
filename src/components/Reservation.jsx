@@ -12,8 +12,8 @@ const Reservation = () => {
     const [showModal, setShowModal] = useState(false);
 
     const handleSubmit = (e) => {
-        e.preventDefault();
         setShowModal(true);
+        e.preventDefault();
     }
 
     return (
