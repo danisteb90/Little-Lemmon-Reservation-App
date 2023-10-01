@@ -1,3 +1,4 @@
+import React from "react";
 import TextimonialsCard from "./TextimonialsCard";
 import {clients} from '../data/Dishes.js';
 import { useState } from "react";

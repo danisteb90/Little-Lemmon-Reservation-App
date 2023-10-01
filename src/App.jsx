@@ -1,3 +1,4 @@
+import React from 'react';
 import Dishes from './components/Dishes';
 import Footer from './components/Footer';
 import Header from './components/Header';

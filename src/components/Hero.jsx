@@ -1,3 +1,4 @@
+import React from 'react';
 import bg_hero from '../assets/img/Background.png';
 import hero1 from '../assets/img/hero1.png';
 import hero2 from '../assets/img/bruchetta.svg';

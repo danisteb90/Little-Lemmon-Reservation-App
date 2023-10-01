@@ -1,3 +1,4 @@
+import React from 'react';
 import bg_dishes from '../assets/img/Background2.png';
 import DishCards from './DishCards';
 import data from '../data/Dishes.js';

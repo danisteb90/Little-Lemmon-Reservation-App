@@ -1,3 +1,5 @@
+import React from "react";
+
 const TextimonialsCard = ({name, image, content, cardStyle }) => {
 
     return (

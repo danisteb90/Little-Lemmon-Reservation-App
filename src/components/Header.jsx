@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import logo from '../assets/img/Logo.svg';
@@ -38,7 +39,7 @@ return (
           <Link to={link.link} smooth={true} duration={1000} offset={50}>{link.name}</Link>
         </li>
       ))}
-      <Link to='reservations' smooth={true} duration={1500} offset={50}>
+      <Link id='menu-section' to='reservations' smooth={true} duration={1500} offset={50}>
         <MainButton
         bgcolor = 'bg-color-2 hover:text-white hover:bg-color-1'
         >
